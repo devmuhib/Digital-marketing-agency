@@ -1,0 +1,59 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* css variables */
+:root {
+  --primary-color: #379cf6;
+  --heading-color: #fff;
+  --btn-primary-bg: #379cf6;
+  --btn-secondary-bg: #090238;
+  --team-card-bg: #1b2352;
+  --link-color: #fff;
+  --link-active: #379cf6;
+  --card-bg: linear-gradient(
+    45deg,
+    rgba(15, 18, 61, 1) 33%,
+    rgba(15, 18, 61, 1) 52%,
+    rgba(11, 41, 69, 1) 84%
+  );
+  --counter-color: linear-gradient(
+    90deg,
+    #02bba6 30%,
+    rgba(29, 129, 176, 1) 55%,
+    rgba(35, 93, 173, 1) 75%
+  );
+  --body-bg: rgba(6, 11, 26, 1);
+  --newsletter-bg: linear-gradient(
+    90deg,
+    rgba(27, 9, 115, 1) 20%,
+    rgba(23, 9, 96, 1) 38%,
+    rgba(14, 9, 56, 1) 100%
+  );
+  --testimonial-bg: #1a0f4f;
+  --font-name: "Roboto", sans-serif;
+  --small-text-color: rgba(255, 255, 255, 0.774);
+  --icon-bg:#151e4f;
+}
+
+.light-theme {
+  --body-bg: rgb(255, 255, 255);
+  --heading-color: #0c123d;
+  --btn-secondary-bg: #816aff;
+  --btn-primary-bg: #fff;
+  --primary-color: #816aff;
+  --counter-color: #fff;
+  --counter-section-bg: #816aff;
+  --link-color: #0c123d;
+  --link-active: #816aff
+  --newsletter-bg: linear-gradient(
+    180deg,
+    rgba(189, 243, 255, 1) 29%,
+    rgba(193, 243, 255, 1) 50%,
+    rgba(226, 250, 255, 1) 78%
+  );
+  --small-text-color:#000;
+  --card-bg:#fff;
+  --testimonial-bg: #f7f7f7;
+  --team-card-bg: #fff;
+}
+
